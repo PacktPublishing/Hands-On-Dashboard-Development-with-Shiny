@@ -1,22 +1,23 @@
 # Hands-On Dashboard Development with Shiny
 
-<a href="Packt UTM URL of the Book"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/big-data-and-business-intelligence/hands-dashboard-development-shiny?utm_source=github&utm_medium=repository&utm_campaign=9781789611557"><img src="https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/11943_cover.png" alt="Hands-On Dashboard Development with Shiny" height="256px" align="right"></a>
 
-This is the code repository for [Book Name](Packt UTM URL of the Book), published by Packt.
+This is the code repository for [Hands-On Dashboard Development with Shiny](https://www.packtpub.com/big-data-and-business-intelligence/hands-dashboard-development-shiny?utm_source=github&utm_medium=repository&utm_campaign=9781789611557), published by Packt.
 
-**Subtitle from EPIC**
+**A practical guide to building effective web applications and dashboards**
 
 ## What is this book about?
-First Paragraph from the Long Description
+
+Although vanilla Shiny applications look attractive with some layout flexibility, you may still want to have more control over how the interface is laid out to produce a dashboard. Hands-On Dashboard Development with Shiny helps you incorporate this in your applications.
 
 This book covers the following exciting features: <First 5 What you'll learn points>
-* Learn how to manage users, groups, and permissions
-* Encrypt and decrypt disks with Linux Unified Key Setup /Luks
-* Setup SSH for remote access, and connect it to other nodes
-* Understand how to add, remove, and search for packages
-* Use NFS and Samba to share directories with other users
+* Add HTML to a Shiny application and write its interfaces from scratch in HTML
+* Use built-in Shiny functions to produce attractive and flexible layouts
+* Produce dashboards, adding icons and notifications
+* Explore Bootstrap themes to lay out your applications
+* Get insights into UI development with hands-on examples
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/dp/10DigitISBN) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789611555) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
@@ -27,14 +28,15 @@ All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
-if (test expression)
-{
-  Statement upon condition is true
-}
+header = dashboardHeader() 
+sidebar = dashboardSidebar() 
+body = dashboardBody() 
+dashboardPage(header, sidebar, body) 
 ```
 
 **Following is what you need for this book:**
-Copy and paste the Audience section from the EPIC.
+
+If you have some experience writing Shiny applications and want to use HTML, CSS, and Bootstrap to make custom interfaces, then this book is for you.	
 
 With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
 
@@ -42,47 +44,21 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
-| 1        | R version 3.3.0                     | Windows, Mac OS X, and Linux (Any) |
-| 2        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 3        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 4        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 5        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 6        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 7        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 8        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 9        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 10        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 11        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 12        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 13        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 14        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
-| 15        | Rstudio Desktop 0.99.903            | Windows, Mac OS X, and Linux (Any) |
+| 1-3        | RStudio                | Windows, Mac OS X, and Linux (Any) |
 
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](Graphics Bundle Link).
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/HandsOnDashboardDevelopmentwithShiny_ColorImages.pdf).
 
-## Code in Action
-
-Click on the following link to see the Code in Action:
-
-[Placeholder link](www.youtube.com/URL)
 
 ### Related products <Other books you may enjoy>
-* Linux: Powerful Server Administration [[Packt]](https://www.packtpub.com/networking-and-servers/linux-powerful-server-administration?utm_source=github&utm_medium=repository&utm_campaign=9781788293778) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Data Analysis with R - Second Edition [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/data-analysis-r-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788393720) [[Amazon]](https://www.amazon.com/dp/1788393724)
 
-* Linux Device Drivers Development [[Packt]](https://www.packtpub.com/networking-and-servers/linux-device-drivers-development?utm_source=github&utm_medium=repository&utm_campaign=9781785280009) [[Amazon]](https://www.amazon.com/dp/1788293770)
+* Hands-On Data Visualization with Bokeh [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hands-data-visualization-bokeh?utm_source=github&utm_medium=repository&utm_campaign=9781789135404) [[Amazon]](https://www.amazon.com/dp/1789135400)
 
 ## Get to Know the Author(s)
-**Author Name**
-Bio
-
-**Author Name**
-Bio
+**Chris Beeley** is the author of Web Application Development with R using Shiny. He has been using R and other open source software for 10 years to better capture, analyze, and visualize data in the healthcare sector in the UK. He works full time developing software to store, collate, and present questionnaire data using open technologies (MySQL, PHP, R, Shiny), with a special emphasis on using the web and Shiny to produce simple and attractive data summaries. Chris is operating firm to expand the use of R and Shiny both within his own organization and throughout the rest of the health sector, as well as enabling his organization to better use a variety of other data science tools. He has also delivered talks about Shiny all over the country.
 
 
-## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
