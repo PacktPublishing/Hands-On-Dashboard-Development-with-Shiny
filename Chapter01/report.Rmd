@@ -1,0 +1,21 @@
+---
+output: word_document
+---
+
+# `r input$title`
+
+The introduction goes here
+
+## Heading 2
+
+The next bit about the subject goes here
+
+### Heading 3
+
+Some more stuff about this subject goes here.
+
+```{r, echo = FALSE}
+
+plot(1:10, main = input$title)
+
+```
