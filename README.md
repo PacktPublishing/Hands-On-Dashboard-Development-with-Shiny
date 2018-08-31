@@ -10,7 +10,7 @@ This is the code repository for [Hands-On Dashboard Development with Shiny](http
 
 Although vanilla Shiny applications look attractive with some layout flexibility, you may still want to have more control over how the interface is laid out to produce a dashboard. Hands-On Dashboard Development with Shiny helps you incorporate this in your applications.
 
-This book covers the following exciting features: <First 5 What you'll learn points>
+This book covers the following exciting features:
 * Add HTML to a Shiny application and write its interfaces from scratch in HTML
 * Use built-in Shiny functions to produce attractive and flexible layouts
 * Produce dashboards, adding icons and notifications
@@ -38,7 +38,7 @@ dashboardPage(header, sidebar, body)
 
 If you have some experience writing Shiny applications and want to use HTML, CSS, and Bootstrap to make custom interfaces, then this book is for you.	
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-3).
 
 ### Software and Hardware List
 
@@ -55,7 +55,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 * Hands-On Data Visualization with Bokeh [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hands-data-visualization-bokeh?utm_source=github&utm_medium=repository&utm_campaign=9781789135404) [[Amazon]](https://www.amazon.com/dp/1789135400)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Chris Beeley** is the author of Web Application Development with R using Shiny. He has been using R and other open source software for 10 years to better capture, analyze, and visualize data in the healthcare sector in the UK. He works full time developing software to store, collate, and present questionnaire data using open technologies (MySQL, PHP, R, Shiny), with a special emphasis on using the web and Shiny to produce simple and attractive data summaries. Chris is operating firm to expand the use of R and Shiny both within his own organization and throughout the rest of the health sector, as well as enabling his organization to better use a variety of other data science tools. He has also delivered talks about Shiny all over the country.
 
 
